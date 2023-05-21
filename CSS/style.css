@@ -16,6 +16,23 @@
     color: goldenrod;
 }
 
+/*contenido de la pag*/
+.custom-box {
+    background-color: #0a4f5f;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-box h5{
+    color: goldenrod;
+}
+
+.custom-box p{
+    color: white;
+    text-align: justify;
+}
+
 /*footer*/
 #pie-pagina{
     background-color: #01242e;
