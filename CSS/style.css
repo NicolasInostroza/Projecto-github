@@ -140,3 +140,24 @@
         transform: scale(1);
     }
 }
+/*clases para nosotros*/
+.nos{
+    background-color: rgb(110, 200, 255);
+}
+.nos_bor{
+    border: 1px solid #01242e;
+   
+
+    
+}
+.color_ese{
+    background-color: #01242e;
+}
+.nos_img{
+    width: 100%;
+    height: 100%;
+}
+.nos_carro_img{
+    height: 300px;
+    
+}
