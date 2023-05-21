@@ -204,3 +204,15 @@
     padding: 10px;
     text-align: center;
 }
+
+.container-marketing{
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
+
+.container-marketing h2{
+    font-size: 36px;
+    text-decoration: underline;
+    color: goldenrod;
+}
