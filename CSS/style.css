@@ -154,7 +154,10 @@
     background-color: #01242e;
 }
 .nos_img{
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+}
+.nos_carro_img{
+    height: 300px;
+    
 }
