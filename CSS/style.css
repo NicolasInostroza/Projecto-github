@@ -5,8 +5,6 @@
 
 .logo {
     height: 150px;
-
-
 }
 
 #header a{
@@ -37,7 +35,6 @@
 #pie-pagina{
     background-color: #01242e;
     color: white;
-
 }
 
 
@@ -170,22 +167,22 @@
 .nos{
     background-color: rgb(110, 200, 255);
 }
+
 .nos_bor{
     border: 1px solid #01242e;
-   
-
-    
 }
+
 .color_ese{
     background-color: #01242e;
 }
+
 .nos_img{
     width: 100%;
     height: 100%;
 }
+
 .nos_carro_img{
     height: 300px;
-    
 }
 
 
@@ -201,9 +198,9 @@
 
 /*Tarjetas*/
 
-.container-marketing{
+.col-lg-4{
     background-color: #0a4f5f;
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
     padding: 10px;
     text-align: center;
 }
