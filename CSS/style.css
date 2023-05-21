@@ -16,6 +16,23 @@
     color: goldenrod;
 }
 
+/*contenido de la pag*/
+.custom-box {
+    background-color: #0a4f5f;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-box h5{
+    color: goldenrod;
+}
+
+.custom-box p{
+    color: white;
+    text-align: justify;
+}
+
 /*footer*/
 #pie-pagina{
     background-color: #01242e;
@@ -123,6 +140,13 @@
     animation: animacaoPulante 0.4s linear;
 }
 
+.article-container{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 30px;
+}
+
 @keyframes animacaoPulante {
     40% {
         transform: scale(1.4);
@@ -160,4 +184,15 @@
 .nos_carro_img{
     height: 300px;
     
+}
+
+
+/*Carrosel*/
+.carousel-item {
+    width: 100%;
+    max-width: 100%;
+}
+
+.carousel {
+    margin: 0 auto;
 }
