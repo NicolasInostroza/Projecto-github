@@ -140,3 +140,10 @@
         transform: scale(1);
     }
 }
+/*clases para nosotros*/
+.nos{
+    background-color: rgb(110, 200, 255);
+}
+.nos_bor{
+    border: blue 1px solid;
+}
