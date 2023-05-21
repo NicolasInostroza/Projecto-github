@@ -16,7 +16,6 @@
     color: goldenrod;
 }
 
-<<<<<<< HEAD
 /*contenido de la pag*/
 .custom-box {
     background-color: #0a4f5f;
@@ -34,8 +33,6 @@
     text-align: justify;
 }
 
-=======
->>>>>>> nosotros
 /*footer*/
 #pie-pagina{
     background-color: #01242e;
@@ -143,7 +140,6 @@
     animation: animacaoPulante 0.4s linear;
 }
 
-<<<<<<< HEAD
 .article-container{
     display: flex;
     justify-content: center;
@@ -151,8 +147,6 @@
     padding: 30px;
 }
 
-=======
->>>>>>> nosotros
 @keyframes animacaoPulante {
     40% {
         transform: scale(1.4);
@@ -169,8 +163,6 @@
     100% {
         transform: scale(1);
     }
-<<<<<<< HEAD
-=======
 }
 /*clases para nosotros*/
 .nos{
@@ -192,5 +184,4 @@
 .nos_carro_img{
     height: 300px;
     
->>>>>>> nosotros
 }
