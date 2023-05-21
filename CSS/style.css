@@ -147,6 +147,8 @@
     padding: 30px;
 }
 
+
+
 @keyframes animacaoPulante {
     40% {
         transform: scale(1.4);
@@ -195,4 +197,13 @@
 
 .carousel {
     margin: 0 auto;
+}
+
+/*Tarjetas*/
+
+.container-marketing{
+    background-color: #0a4f5f;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
 }
