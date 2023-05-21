@@ -185,3 +185,13 @@
     height: 300px;
     
 }
+
+/*Carrosel*/
+.carousel-item {
+    width: 100%;
+    max-width: 100%;
+}
+
+.carousel {
+    margin: 0 auto;
+}
