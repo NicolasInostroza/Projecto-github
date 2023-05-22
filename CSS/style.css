@@ -5,8 +5,6 @@
 
 .logo {
     height: 150px;
-
-
 }
 
 #header a{
@@ -16,11 +14,27 @@
     color: goldenrod;
 }
 
+/*contenido de la pag*/
+.custom-box {
+    background-color: #0a4f5f;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-box h5{
+    color: goldenrod;
+}
+
+.custom-box p{
+    color: white;
+    text-align: justify;
+}
+
 /*footer*/
 #pie-pagina{
     background-color: #01242e;
     color: white;
-
 }
 
 
@@ -123,6 +137,15 @@
     animation: animacaoPulante 0.4s linear;
 }
 
+.article-container{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 30px;
+}
+
+
+
 @keyframes animacaoPulante {
     40% {
         transform: scale(1.4);
@@ -139,4 +162,122 @@
     100% {
         transform: scale(1);
     }
+}
+/*clases para nosotros*/
+.nos{
+    background-color: rgb(110, 200, 255);
+}
+
+.nos_bor{
+    border: 1px solid #01242e;
+}
+
+.color_ese{
+    background-color: #01242e;
+}
+
+.nos_img{
+    width: 100%;
+    height: 100%;
+}
+
+.nos_carro_img{
+    height: 300px;
+}
+
+
+/*Carrosel*/
+.carousel-item {
+    width: 100%;
+    max-width: 100%;
+}
+
+.carousel {
+    margin: 0 auto;
+}
+
+/*Tarjetas*/
+
+.col-lg-4{
+    background-color: #0a4f5f;
+    border: 5px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-marketing{
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
+
+.container-marketing h2{
+    font-size: 36px;
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.form-control:focus {
+    border-color: #8464ca;
+    box-shadow: 0 0 8px #beace3;
+}
+.contact-modal {
+    width: 600px;
+    padding: 50px;
+    margin: 30px auto;
+}
+.contact-modal h4 {
+    font-size: 26px;
+    display: inline-block;
+}
+.contact-modal .form-control, .contact-modal .btn  {
+    min-height: 38px;
+    border-radius: 1px;
+    outline: none;
+}
+.contact-modal .btn-primary {
+    min-width: 100px;
+    background: #0a4f5f;
+    border: none;
+}
+.contact-modal .btn-primary:hover {
+    background: goldenrod;
+}
+.contact-modal .btn-primary:focus {
+    box-shadow: 0 0 8px rgba(132, 100, 202, 0.6);
+}
+.contact-modal .btn-link {
+    color: #0a4f5f;
+}
+.contact-modal label {
+    opacity: 0.9;
+    font-weight: normal;
+    font-size: 95%;
+}
+.contact-modal textarea {
+    resize: vertical;
+}
+.contact-modal.modal-dialog {
+    width: 480px;
+}
+.contact-modal .modal-header {
+    padding: 20px 35px 14px;
+}
+.contact-modal .modal-content {
+    border-radius: 1px;
+}
+.contact-modal .close {
+    position: absolute;
+    right: 35px;
+    top: 25px;
+}
+.contact-modal .modal-body {
+    padding: 20px 35px 35px;
+}
+.hint-text {
+    opacity: 0.8;
+}
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
 }
